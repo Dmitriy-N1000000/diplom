@@ -443,4 +443,21 @@ body {
   pointer-events: none
  }
 
-
+ /*================================================================*/ 
+ 
+ @media screen and (max-width: 478px) {
+	.movie__info {
+	  flex-direction: column;
+	  margin-bottom: 2rem;
+	}
+	.conf-step__chair {
+	  width: 5.5vw;
+	  height: 5.5vw;
+	}
+	.movie .movie__info {
+	  display: inline-block;
+	}
+	.page-nav .page-nav__day {
+	  font-size: 1.4rem;
+	}
+ }
