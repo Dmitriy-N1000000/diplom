@@ -63,7 +63,7 @@ function hallConfig(response) {
 			if (seances.length > 0) {
 				addHtml +=
 					`<div class="movie-seances__hall">
-					  <h3 class="movie-seances__hall-title">${hall.hall_name}</h3>
+					  <h3 class="movie-seances__hall-title">${hall.hall_name.replace(/(\D)(\d)/, '$1 $2')}</h3>
 						<ul class="movie-seances__list">`;
 				seances.forEach(seance =>
 
